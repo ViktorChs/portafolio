@@ -18,6 +18,9 @@ body{
     height: 41.5rem;
     background-size: cover;
 }
+#welcome-section{
+    height: 100vh;
+}
 .logo{
     width: 90px;
     height: 90px;
@@ -114,7 +117,7 @@ body{
 
 /* section 2*/ 
 
-#projects{
+#s-projects{
     background: #1d1d1d;
     width: 100%;
     height: 15rem;
@@ -122,28 +125,28 @@ body{
     align-items: center;
 }
 @media (max-width:490px) {
- #projects{
+ #s-projects{
     height: 31rem;
 
  }   
- .project-tile u {
+ #project-tile u {
  display: none;
 }
 }
 
 
-.project-tile{
+#project-tile{
     color: aliceblue;
     font-size: 16px;
     padding-left: 115px;
     width: 80%;
     
 }
-.project-tile span{
+#project-tile span{
     font-size: 50px;
     color:#16e0bd;
 }
-.project-tile u {
+#project-tile u {
     font-size: 10px;
     font-size: 200px;
     position: absolute;
@@ -158,7 +161,7 @@ body{
 }
     /*background: linear-gradient(#0f0f0fc4 0% 100%), url(background2.png);*/
 /*contenedores*/
-#contenedores{
+#projects{
     background: #101010;
     width: 100%;
     height: max-content;
@@ -168,20 +171,20 @@ body{
     overflow-y: hidden;
 }
 
-.contenedor{
+.project-tile{
     position: relative;
     display: inline-block;
     text-align: center;
     
 }
-.contenedor img{
+.project-tile img{
     width: 283px;
     height: 65vh;
     transition: all 0.4s;
 
 }
 
-.contenedor:hover img {
+.project-tile:hover img {
     position: relative;
     transform: scale(1.2);
 }
