@@ -207,3 +207,7 @@ body{
     color: aliceblue;
     justify-content: flex-end;
 }
+button {
+    background: none;
+    border: none;
+}
