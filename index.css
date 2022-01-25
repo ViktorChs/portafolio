@@ -121,6 +121,16 @@ body{
     display: flex;
     align-items: center;
 }
+@media (max-width:490px) {
+ #projects{
+    height: 31rem;
+
+ }   
+ .project-tile u {
+ display: none;
+}
+}
+
 
 .project-tile{
     color: aliceblue;
